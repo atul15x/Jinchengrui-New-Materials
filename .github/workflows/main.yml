@@ -16,5 +16,5 @@ jobs:
       with:
         server: ftp.atulchandradash.fun
         username: atul15x@atulchandradash.fun
-        password: Hello123456
+        password: ${{ secrets.ftp_password }}
         server-dir: /jcr-nem.atulchandradash.fun/
